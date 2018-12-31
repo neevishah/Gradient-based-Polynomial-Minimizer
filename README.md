@@ -1,3 +1,1 @@
-# MIE250 Project3
-
-Please see the assignment description posted on Quercus for instructions.
+Gradient based polynomial minimizer based on the steepest descent algorithm

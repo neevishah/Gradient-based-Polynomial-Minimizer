@@ -22,8 +22,6 @@ public class Vector {
 	 */
 	
 	public Vector() {
-		// TODO: this method should not be empty! 
-		// Hint: is there any memory you want to allocate?
 	
 		_hmVar2Value = new HashMap<String, Double>(); 
 	}
@@ -83,11 +81,6 @@ public class Vector {
 		// Hint: look very carefully at the available methods of HashMap... this is a one liner!
 		_hmVar2Value.putAll(x._hmVar2Value);
 	}
-
-	///////////////////////////////////////////////////////////////////////////////
-	// TODO: Add your methods here!  You'll need more than those above to make
-	//       main() work below.
-	///////////////////////////////////////////////////////////////////////////////
 	
 	//get val from key since HashMap is private. this will allow methods to use values from _hmVar2Value in other classes
 	//TODO - check if this was given or not if given change the name back to getVal
